@@ -49,6 +49,14 @@ public class BooksController : BooksManagementBaseController
         return Ok(response);
     }
 
+    [HttpPut]
+    [Route("{bookId}")]
+    [ProducesResponseType(typeof(ResponseCreatedBookJson), StatusCodes.Status204NoContent)]
+    public IActionResult Update([FromRoute] int bookId, [FromBody] RequestUpdateBookJson request)
+    {
+        return NoContent();
+    }
+
     [HttpDelete]
     [Route("{bookId}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]

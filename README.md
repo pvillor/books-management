@@ -20,7 +20,7 @@ O sistema deve permitir que o usuário crie, visualize, edite e exclua livros.
 
 #### Endpoints necessários
 
-- [] Deve ser possível criar um livro;
-- [] Deve ser possível visualizar todos os livros que foram criados;
+- [X] Deve ser possível criar um livro;
+- [X] Deve ser possível visualizar todos os livros que foram criados;
 - [] Deve ser possível editar informações de um livro;
 - [] Deve ser possível excluir um livro.

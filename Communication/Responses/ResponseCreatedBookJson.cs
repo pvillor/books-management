@@ -1,6 +1,6 @@
 ﻿namespace BooksManagement.Communication.Responses;
 
-public class ResponseCreateBookJson
+public class ResponseCreatedBookJson
 {
     public int Id { get; set; }
     public string Title { get; set; } = string.Empty;

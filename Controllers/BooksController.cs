@@ -48,4 +48,12 @@ public class BooksController : BooksManagementBaseController
 
         return Ok(response);
     }
+
+    [HttpDelete]
+    [Route("{bookId}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public IActionResult Delete([FromRoute] int bookId)
+    {
+        return NoContent();
+    }
 }

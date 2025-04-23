@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BooksManagement.Entities;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BooksManagement.API.Controllers;
 
@@ -6,4 +7,5 @@ namespace BooksManagement.API.Controllers;
 [ApiController]
 public class BooksManagementBaseController : ControllerBase
 {
+    public static List<Book> Books = [];
 }
